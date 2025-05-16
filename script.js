@@ -76,8 +76,8 @@ DA LAS LISTAS COMPLETAS PORFAVOR.
 DA RESPUESTAS CONCRETAS, DIRECTAS Y ESPECÍFICAS, evitando información general o irrelevante.
 NO digas bienvenido en cada repuesta.`;
 
-        // Llamar a Gemini con el prompt concatenado
-        const response = await fetch("http://localhost:3000/api/gemini", {
+        // Llamar al Backend Gemini con el prompt concatenado
+        const response = await fetch("https://backendchat-r5bf.onrender.com/api/gemini", {
   method: "POST",
   headers: {
     "Content-Type": "application/json"
