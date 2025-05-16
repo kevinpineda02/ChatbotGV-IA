@@ -8,7 +8,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-image: url("imagenes/fondo1.jpg");
+    background-image: url("imagenes/FondoNegro.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -54,7 +54,7 @@ body{
     position: relative;
     left: 43%;
     border-radius: 40px 0px 40px 40px;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 2px 2px 5px black;
 }
 
 .ai-chat-area{
@@ -65,18 +65,16 @@ body{
     left: 7%;
     color: #fff;
     border-radius: 0px 40px 40px 40px;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 2px 2px 5px black;
 }
 #UserImagen{
     position: absolute;
     right: 0;
-    filter: drop-shadow(2px 20px 10px #000);
 }
 
 #AiImagen{
     position: absolute;
     left: 0;
-    filter: drop-shadow(2px 20px 10px #000);
 }
 
 .load{
@@ -165,7 +163,7 @@ body{
 @media (max-width: 768px) {
 
     .chat-container {
-        height: 88vh;
+        height: 90vh;
         padding: 5px;
         font-size: 16px;
         overflow-y: auto;
@@ -174,9 +172,12 @@ body{
     .user-chat-box,
     .ai-chat-box {
         width: 100%;
-        padding: 10px;
-        left: 0;
-        
+        left: 0px;
+    }
+
+    .user-chat-box {
+        position: relative;
+        padding-right: 20px; 
     }
 
     .user-chat-area,
@@ -184,31 +185,33 @@ body{
         width: auto;
         max-width: 65%;
         font-size: 15px;
-        padding: 14px;
+        padding: 15px;
         border-radius: 20px;
         box-shadow: 2px 2px 6px black;
         overflow-wrap: break-word; 
-
     }
 
     .user-chat-area {
         width: 50%;
-        padding-left: 0px;
         border-radius: 20px 0px 20px 20px;
         box-shadow: 5px 5px 10px black;
-
+        margin-right: 60px;
     }
 
     .ai-chat-area {
-        margin-left: 5px;
+        margin-left: 15px;
         border-radius: 0px 20px 20px 20px;
     }
 
     #UserImagen{
         width: 30px;
         height: 30px;
-        right: 0;
-        position: absolute;        
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+        /* Nuevo: */
+        margin-left: 10px;    
     }
 
     #AiImagen {
@@ -235,16 +238,17 @@ body{
     }
 
     .prompt-area input {
-        width: 75%;
+        width: 85%;
         height: 45px;
         font-size: 14px;
-        padding: 10px 10px;
+        padding: 10px 15px;
     }
 
     .prompt-area button {
-        width: 45px;
-        height: 45px;
-        font-size: 18px;
+        width: 55px;
+        height: 55px;
+        padding: 5px 5px;
+        
         
     }
 }
