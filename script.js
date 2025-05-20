@@ -146,7 +146,7 @@ function handlechatResponse(message) {
         chatcontainer.scrollTop = chatcontainer.scrollHeight;
 
         generateResponse(iaChatBox, message);
-    }, 800);
+    }, 200);
 }
 
 // Eventos
