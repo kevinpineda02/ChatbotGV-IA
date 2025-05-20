@@ -74,8 +74,7 @@ Pregunta del usuario: ${userMessage}
 IMPORTANTE: No uses el símbolo # en ningún título, lista o texto. Si haces listas, usa solo números (1., 2., 3., ...) o guiones (-). No uses otros símbolos para las listas ni para los títulos. Mantén el formato claro y ordenado. 
 DA LAS LISTAS COMPLETAS PORFAVOR. 
 DA RESPUESTAS CONCRETAS, DIRECTAS Y ESPECÍFICAS, evitando información general o irrelevante.
-NO digas bienvenido en cada repuesta.
-Saluda Rápido`;
+NO digas bienvenido en cada repuesta.`;
 
         // Llamar al Backend Gemini con el prompt concatenado
         const response = await fetch("https://backendchat-r5bf.onrender.com/api/gemini", {
