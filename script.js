@@ -18,6 +18,8 @@ async function generateResponse(iaChatBox, userMessage) {
             "txt/Instrucciones.txt",
             //Informacion Sobre la Universidad
             "txt/InformacionGeneral.txt",
+            //Ingreso
+            "txt/Ingreso.txt",
             //Carreras
             "txt/Carreras/VideoJuegos.txt",
             "txt/Carreras/Software.txt",
