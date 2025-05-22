@@ -21,6 +21,7 @@ async function generateResponse(iaChatBox, userMessage) {
             //Ingreso
             "txt/Ingreso.txt",
             //Carreras
+            "txt/Precios.txt",
             "txt/Carreras/VideoJuegos.txt",
             "txt/Carreras/Software.txt",
             "txt/Carreras/Industrial.txt",
