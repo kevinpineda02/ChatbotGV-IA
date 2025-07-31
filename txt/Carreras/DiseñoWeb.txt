@@ -1,0 +1,144 @@
+LICENCIATURA EN
+DISEÑO GRÁFICO
+WEB MULTIMEDIA
+MODALIDAD PRESENCIAL
+UNIVERSIDAD FRANCISCO GAVIDIA
+
+PERFIL DEL PROFESIONAL
+
+DESCRIPCIÓN
+La carrera forma profesionales en los aspectos que conllevan las animaciones web, desde el hecho de la creación de personajes para fines educativos, comerciales o informativos hasta complejas animaciones interactivas que pueden ser aplicadas no solo a nivel web, sino también dentro de la televisión e, incluso, la cinematografía, tomando siempre en cuenta el factor lógico de la navegabilidad.
+Se preparan a los futuros profesionales en la planificación, diseño e implementación de sitios y páginas web.
+
+OBJETIVOS
+* Formar profesionales que creen sitios, páginas o aplicaciones web, a partir de interfaces gráficas interactivas y fáciles de usar, pensadas según las necesidades de los usuarios.
+* Formar profesionales que generen contenido gráfico y multimedia para publicaciones digitales.
+* Formar profesionales para construir un portafolio sólido y a adquirir habilidades empresariales para aquellos que deseen trabajar de forma independiente o emprender en el campo del diseño gráfico web multimedia.
+
+PERFIL DE INGRESO
+
+CONOCIMIENTOS
+* Matemáticas.
+* Física.
+* Lógica.
+* Computación.
+
+HABILIDADES
+* La capacidad de observación y de análisis.
+* Resolución de problemas utilizando la creatividad.
+* Manejo de ofimática.
+
+ACTITUDES
+* Preferencia por la animación digital y los videojuegos.
+* Propositivo en la solución a problemas concretos.
+* Ser tenaz.
+* Compromiso ético-social.
+* Dispuesto a aprender haciendo y reflexionando sobre lo realizado.
+* Ser positivo para aprender, experimentar y realizar innovaciones.
+
+PUESTOS A DESEMPEÑAR
+* Diseñador gráfico web.
+* Desarrollador de proyectos de diseño web.
+* Administrador, director o coordinador en el área multimedia y audiovisual.
+* Web máster.
+* Programador y diseñador web.
+* Gestor de contenidos web.
+* Administrador de sitios web.
+* Benchmarketing y community manager.
+
+REQUISITOS DE EGRESO
+* CUM MÍNIMO DE 7.0
+* CUMPLIR SERVICIO SOCIAL
+* PRUEBA DE DOMINIO DE IDIOMA INGLÉS (EN LAS CARRERAS QUE APLIQUE)
+
+PLAN DE ESTUDIO Plan 2024
+UV=UNIDADES VALORATIVAS
+ASIGNATURAS ENRIQUECIDAS CON CONTENIDO ASU
+
+CICLO I
+N.º ASIGNATURA UV REQUISITO
+1 Técnicas de Diseño I 4 Bachiller
+2 Métodos de Diseño y Creatividad 4 Bachiller
+3 Fundamentos de Diseño I 4 Bachiller
+4 Diseño Vectorial 4 Bachiller
+5 Habilidades Digitales 4 Bachiller
+
+CICLO II
+N.º ASIGNATURA UV REQUISITO
+6 Ilustración Aplicada 4 Técnicas de Diseño I
+7 Fotografía General 4 Bachiller
+8 Métodos y Técnicas de Investigación 4 Bachiller
+9 Edición Gráfica Digital 4 Diseño Vectorial
+10 Pensamiento Crítico 4 Bachiller
+
+CICLO III
+N.º ASIGNATURA UV REQUISITO
+11 Introducción al Lenguaje Visual 4 Ilustración Aplicada
+12 Habilidades Blandas 4 Bachiller
+13 Fundamentos de Publicidad 4 Bachiller
+14 Animación Digital I 4 Edición Gráfica Digital
+15 Educación para la Ciudadanía 4 Bachiller
+
+CICLO IV
+N.º ASIGNATURA UV REQUISITO
+16 Imagen Corporativa 4 Introducción al Lenguaje Visual
+17 Lógica Proposicional 4 Bachiller
+18 E-Marketing 4 Fundamentos de Publicidad
+19 Diseño de Interfaces 4 Animación Digital I
+20 Prácticas de Diseño 4 Diseño Vectorial
+
+CICLO V
+N.º ASIGNATURA UV REQUISITO
+21 Tipografía 4 Imagen Corporativa
+22 Programación Web I 4 Habilidades Digitales
+23 E-Commerce 4 E-Marketing
+24 Motion Graphics 4 Diseño de Interfaces
+
+CICLO VI
+N.º ASIGNATURA UV REQUISITO
+25 Semiótica y Simbología 4 Tipografía
+26 Programación Web II 4 Programación Web I
+27 Emprendimiento e Innovación 4 Bachiller
+28 Diseño Web 4 Motion Graphics
+
+CICLO VII
+N.º ASIGNATURA UV REQUISITO
+29 Historia del Diseño Gráfico Web 4 Semiótica y Simbología
+30 Programación Web III 4 Programación Web II
+31 Audio y Video 4 Fotografía General
+32 Usabilidad Web 4 Diseño Web
+
+CICLO VIII
+N.º ASIGNATURA UV REQUISITO
+33 Gerencia del Diseño 4 Emprendimiento e Innovación
+34 Diseño y Desarrollo de Aplicaciones Móviles I 4 Programación Web III
+35 Comunicación de Información en la Web 4 Usabilidad Web
+36 Web 4.0 4 Usabilidad Web
+
+CICLO IX
+N.º ASIGNATURA UV REQUISITO
+37 Práctica Profesional I 4 Diseño y Desarrollo de Aplicaciones Móviles I
+38 Diseño y Desarrollo de Aplicaciones Móviles II 4 Diseño y Desarrollo de Aplicaciones Móviles I
+39 Asignatura Electiva I 4 Web 4.0
+40 Asignatura Electiva II 4 Web 4.0
+
+CICLO X
+N.º ASIGNATURA UV REQUISITO
+41 Taller de Portafolio 4 Práctica Profesional I + Diseño y Desarrollo de Aplicaciones Móviles II
+42 Asignatura Electiva III 4 Práctica Profesional I
+43 Asignatura Electiva IV 4 Práctica Profesional I
+
+TABLA DE ASIGNATURAS ELECTIVAS (ASE)
+TOTALES: 188 UV
+
+IMPAR
+N.º ASIGNATURA UV REQUISITO
+1 Medios Audiovisuales 4 Web 4.0
+2 Modelado 3D 4 Web 4.0
+3 Diseño Multimedia 4 Web 4.0
+
+PAR
+N.º ASIGNATURA UV REQUISITO
+4 Taller de Cine y Animación 4 Práctica Profesional I
+5 Bases de Datos 4 Práctica Profesional I
+6 Gestión y Dirección de Proyectos 4 Práctica Profesional
