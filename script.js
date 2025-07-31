@@ -251,7 +251,7 @@ function updateSubmitButton(isGeneratingResponse) {
 // 2. Oculta la pantalla de carga.
 window.addEventListener('load', () => {
     clearServerMemory();
-    hideLoader(); 
+    hideLoader();  
 });
 
 // Cuando el DOM está completamente cargado, añadir listeners a los elementos
@@ -270,7 +270,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Detiene tanto la petición como la escritura
             abortController.abort();
             shouldStopWriting = true;
-            updateSubmitButton(false); // <-- Añade esta línea para restaurar el icono de enviar
+            updateSubmitButton(false);
             console.log("Generación de mensaje detenida por el usuario vía botón.");
         } else if (promptInput.value.trim()) {
             handleChatResponse(promptInput.value.trim());
@@ -295,7 +295,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 abortController.abort();
                 console.log("Generación de mensaje detenida por el usuario desde el botón 'Clear'.");
                 // Pequeño retardo para que la cancelación se procese antes de cualquier otra acción
-                await new Promise(resolve => setTimeout(resolve, 100)); 
+                await new Promise(resolve => setTimeout(resolve, 100));  
             } else {
                 console.log("No hay generación activa para detener.");
                 // Si este botón es para LIMPIAR el chat, aquí iría la lógica para borrar mensajes del DOM
