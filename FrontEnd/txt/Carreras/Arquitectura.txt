@@ -1,0 +1,127 @@
+```
+UNIVERSIDAD FRANCISCO GAVIDIA
+ARQUITECTURA
+MODALIDAD PRESENCIAL
+
+PERFIL DEL PROFESIONAL
+
+DESCRIPCIÓN
+Con la carrera de Arquitectura, el profesional desarrollará la capacidad para el Diseño de Espacios Arquitectónicos, potenciando la creatividad para el Desarrollo de Anteproyectos de Diseño Arquitectónico.
+
+Creando soluciones apropiadas a los problemas de la Arquitectura y el Medio Ambiente, podrá programar y controlar proyectos constructivos y presentaciones arquitectónicas, tanto en forma clásica como digital.
+
+OBJETIVOS
+* Adquirir habilidades y destrezas con la finalidad de desempeñarse eficiente y competitivamente en el mundo laboral, ya sea mediante la creación de sus propias empresas o como parte de empresas ya establecidas.
+* Participar con responsabilidad, valores y principios éticos en procesos de construcción de soluciones a problemas específicos del área laboral, con el objeto de aportar significativamente al desarrollo social y sostenible del país.
+
+REQUISITOS DE EGRESO
+* CUM MÍNIMO DE 7.0
+* CUMPLIR SERVICIO SOCIAL
+* PRUEBA DE DOMINIO DE IDIOMA INGLÉS (en las carreras que aplique)
+
+PERFIL DE INGRESO
+
+CONOCIMIENTOS
+* Matemáticas.
+* Física.
+* Lógica.
+* Computación.
+
+HABILIDADES
+* Capacidad de observación y de análisis.
+* Resolución de problemas matemáticos.
+* Manejo de ofimática.
+
+ACTITUDES
+* Preferencia por contenidos de ciencias computacionales.
+* Ser positivo para aprender, experimentar y realizar innovaciones.
+* Interesado por la innovación y la generación de propuestas.
+
+PUESTOS A DESEMPEÑAR
+* Diseñador de Proyectos Arquitectónicos.
+* Director de proyectos de diseño arquitectónico en interrelación con otras disciplinas afines.
+* Planificador de programas y proyectos de construcción.
+* Administrador de proyectos de diseño y construcción.
+
+PLAN DE ESTUDIO - Plan 2024
+UV = UNIDADES VALORATIVAS
+ASIGNATURAS ENRIQUECIDAS CON CONTENIDO ASU
+
+CICLO I
+N.º ASIGNATURA UV REQUISITO
+1 Simulación Matemática en el Diseño Estructural 4 Bachiller
+2 Aplicación de los Fundamentos de Diseño Bidimensional 6 Bachiller
+3 Habilidades Digitales 4 Bachiller
+4 Aplicación de la Geometría y Sistemas de Representación Gráfica en el Dibujo Arquitectónico 4 Bachiller
+5 Interpretación del Arte en la Prehistoria e Historia Antigua 4 Bachiller
+
+CICLO II
+N.º ASIGNATURA UV REQUISITO
+6 Análisis del Equilibrio en Elementos Estructurales 4 Simulación Matemática en el Diseño Estructural
+7 Aplicación de los Fundamentos de Diseño Tridimensional 6 Aplicación de los Fundamentos de Diseño Bidimensional
+8 Habilidades Blandas 4 Bachiller
+9 Dibujo de Planos Digitales 4 Aplicación de la Geometría y Sistemas de Representación Gráfica en el Dibujo Arquitectónico
+10 Análisis Arquitectónico desde la Edad Media hasta la Edad Contemporánea 4 Interpretación del Arte en la Prehistoria e Historia Antigua
+
+CICLO III
+N.º ASIGNATURA UV REQUISITO
+11 Aplicación de la Estática en Estructuras 4 Análisis del Equilibrio en Elementos Estructurales
+12 Medición de Terrenos y Edificaciones 4 Dibujo de Planos Digitales
+13 Investigación en el Diseño Arquitectónico 4 Aplicación de los Fundamentos de Diseño Bidimensional + Aplicación de la Geometría y Sistemas de Representación Gráfica en el Dibujo Arquitectónico
+14 Modelado Digital de Información para la Construcción 4 Dibujo de Planos Digitales
+15 Análisis Arquitectónico desde el Periodo Prehispánico hasta la Época Actual Salvadoreña 4 Bachiller
+
+CICLO IV
+N.º ASIGNATURA UV REQUISITO
+16 Clasificación de los Materiales y Obras Preliminares en la Construcción 6 Aplicación de la Estática en Estructuras
+17 Análisis de Resistencia de Materiales 4 Aplicación de la Estática en Estructuras
+18 Análisis de la Función y la Forma 4 Investigación en el Diseño Arquitectónico
+19 Modelado de Maquetas Digitales 4 Dibujo de Planos Digitales
+20 Ilustración de Proyectos 4 Aplicación de la Geometría y Sistemas de Representación Gráfica en el Dibujo Arquitectónico + Aplicación de los Fundamentos de Diseño Tridimensional
+
+CICLO V
+N.º ASIGNATURA UV REQUISITO
+21 Procesos Constructivos 6 Clasificación de los Materiales y Obras Preliminares en la Construcción
+22 Diseño de Elementos Estructurales 4 Análisis de Resistencia de Materiales
+23 Diseño de Proyectos Arquitectónicos Básicos 4 Análisis de la Función y la Forma
+24 Modelado de Recorridos Virtuales 4 Modelado Digital de Información para la Construcción + Modelado de Maquetas Digitales
+25 Lógica Proposicional 4 Bachiller
+
+CICLO VI
+N.º ASIGNATURA UV REQUISITO
+26 Dirección y Control de Procesos Constructivos 6 Procesos Constructivos
+27 Métodos y Técnicas de Investigación 4 Bachiller
+28 Diseño de Proyectos Arquitectónicos de Mediana Complejidad 4 Diseño de Elementos Estructurales + Diseño de Proyectos Arquitectónicos Básicos
+29 Diseño Arquitectónico Digital 4 Modelado de Recorridos Virtuales
+30 Pensamiento Crítico 4 Bachiller
+
+CICLO VII
+N.º ASIGNATURA UV REQUISITO
+31 Elaboración de Costos y Presupuestos 4 Dirección y Control de Procesos Constructivos
+32 Diseño de Instalaciones Especiales 6 Dirección y Control de Procesos Constructivos + Diseño Arquitectónico Digital
+33 Diseño de Proyectos Arquitectónicos Complejos 4 Diseño de Proyectos Arquitectónicos de Mediana Complejidad + Diseño Arquitectónico Digital
+34 Educación para la Ciudadanía 4 Bachiller
+35 Análisis y Sostenibilidad del Medio Ambiente 4 Dirección y Control de Procesos Constructivos
+
+CICLO VIII
+N.º ASIGNATURA UV REQUISITO
+36 Procedimientos Contractuales 4 Elaboración de Costos y Presupuestos
+37 Emprendimiento e Innovación 4 Bachiller
+38 Diseño de Proyectos Arquitectónicos y sus Instalaciones 4 Diseño de Instalaciones Especiales + Diseño de Proyectos Arquitectónicos Complejos
+39 Diseño Urbano 4 Análisis y Sostenibilidad del Medio Ambiente
+40 Peritaje y Valúo de Propiedades 4 Medición de Terrenos y Edificaciones + Elaboración de Costos y Presupuestos
+
+CICLO IX
+N.º ASIGNATURA UV REQUISITO
+41 Intervención del Territorio 4 Diseño de Proyectos Arquitectónicos y sus Instalaciones + Diseño Urbano
+42 Análisis Territorial 4 Diseño Urbano
+43 Diseño de Proyectos Arquitectónicos Sostenibles 4 Análisis y Sostenibilidad del Medio Ambiente + Diseño de Proyectos Arquitectónicos y sus Instalaciones
+44 Asignatura Electiva I 4 Ver Tabla de Asignaturas Electivas
+45 Asignatura Electiva II 4 Ver Tabla de Asignaturas Electivas
+
+CICLO X
+N.º ASIGNATURA UV REQUISITO
+46 Medición del Desempeño Profesional 4 Procedimientos Contractuales + Diseño de Proyectos Arquitectónicos Sostenibles
+47 Asignatura Electiva III 4 Ver Tabla de Asignaturas Electivas
+48 Asignatura Electiva IV 4 Ver Tabla de Asignaturas Electivas
+```
