@@ -251,7 +251,7 @@ function updateSubmitButton(isGeneratingResponse) {
 // 2. Oculta la pantalla de carga.
 window.addEventListener('load', () => {
     clearServerMemory();
-    hideLoader();  
+    hideLoader();
 });
 
 // Cuando el DOM está completamente cargado, añadir listeners a los elementos
