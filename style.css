@@ -1,16 +1,4 @@
-@media (max-width: 768px) {
-  .ai-chat-area .rainbow-text {
-    font-size: 18px !important;
-    animation-duration: 10s !important;
-  }
-}
 
-@media (max-width: 480px) {
-  .ai-chat-area .rainbow-text {
-    font-size: 14px !important;
-    animation-duration: 7s !important;
-  }
-}
 /* Restablecimiento universal para todos los elementos */
 * {
     margin: 0;
@@ -603,9 +591,12 @@ body {
 
 @media (max-width: 768px) {
     .chat-container {
-        height: 90vh; /* Ajuste de altura para pantallas pequeñas */
+        /* MODIFICACIÓN: Se quita la altura fija para que Flexbox gestione el espacio. */
+        /* height: 88vh; */
+        flex-grow: 1; 
         padding: 0px;
-        font-size: 16px;
+        width: auto;
+        font-size: 12px;
         overflow-y: auto;
     }
 
@@ -662,7 +653,7 @@ body {
         top: 50%;
         transform: translateY(-50%);
         position: absolute;
-        margin-left: 10px;    
+        margin-left: 10px;     
     }
 
     #AiImagen {
@@ -686,19 +677,20 @@ body {
         justify-content: space-between; /* Espacio entre input y botón */
         align-items: center;
         height: auto;
-        padding: 20px;
-        gap: 10px;
-        margin-top: px;
+        top: 5px; /* Reinicia el 'top' para evitar solapamiento */
+        padding:15px;
+        gap: 15px;
+        /* MODIFICACIÓN: Se elimina el 'top' que causaba solapamiento. Ahora Flexbox lo posiciona automáticamente. */
+        /* top: 12px; */
     }
 
     .main-content {
         opacity: 1;
         transform: translateY(0);
-        
     }
 
     .ai-chat-box{
-        top: 40px;
+        top: 30px;
         padding: 10px;
     }
 
