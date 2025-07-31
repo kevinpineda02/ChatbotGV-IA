@@ -1,0 +1,282 @@
+INGENIERÍA EN
+SISTEMAS Y
+CIBERSEGURIDAD
+M O D A L I D A D S E M I P R E S E N C I A L
+UNIVERSIDAD FRANCISCO GAVIDIA
+PERFIL DEL
+PROFESIONAL
+DESCRIPCIÓN
+La carrera de Ingeniería en Sistemas y Ciberseguridad de la
+Universidad Francisco Gavidia responde a la creciente
+demanda de profesionales capacitados en tecnologías digitales,
+quienes son fundamentales en un entorno cada vez más
+digitalizado. Este programa prepara a los estudiantes para
+desempeñarse en un amplio abanico de roles en sistemas de
+información, gestión de datos, networking y ciberseguridad
+para que las empresas puedan innovar, competir y protegerse
+en el mercado global.
+OBJETIVOS
+• Desarrollar aplicaciones informáticas de escritorio, móviles
+y web aplicando los principios del desarrollo seguro, los
+estándares de programación y la gestión de bases de datos,
+tanto en plataformas en la nube como on-premise.
+• Desarrollar las competencias técnicas y las actitudes
+gerenciales que les permitan el diseño, la implementación
+y la administración de sistemas seguros y redes informáticas
+resilientes que coadyuven a la protección de los datos y la
+respuesta efectiva a incidentes de seguridad.
+REQUISITOS DE EGRESO = • CUM MÍNIMO DE 7.0 • CUMPLIR SERVICIO SOCIAL
+• PRUEBA DE DOMINIO DE IDIOMA INGLÉS (EN LAS CARRERAS QUE APLIQUE)
+PERFIL DE
+INGRESO
+PUESTOS A
+DESEMPEÑAR
+• Analistas de
+Sistemas Informáticos.
+• Diseñador y
+Administrador de Base
+de Datos.
+• Gerente de Soluciones
+de Minería y Gestión
+de Datos.
+• Analista de Seguridad de
+la Información.
+• Jefe de Seguridad Informática.
+• Desarrollador de Aplicaciones
+Informáticas para PC y
+Dispositivos Móviles.
+CONOCIMIENTOS
+• Matemáticas.
+• Lógica.
+• Lenguaje.
+• Ciencias Sociales.
+• Ciencias Naturales.
+• Computación.
+HABILIDADES
+• Capacidad de
+observación y de análisis.
+• Pensamiento crítico.
+• Manejo de ofimática u otra
+paquetería de programas.
+ACTITUDES
+• Propositivo en la solución a
+problemas concretos.
+• Ser tenaz.
+• Compromiso ético-social.
+• Dispuesto a aprender
+haciendo y reflexionando
+sobre lo realizado.
+• Ser positivo para
+aprender, experimentar y
+realizar innovaciones.
+• Iniciativa, disposición,
+dedicación al
+estudio intensivo.
+PLAN DE
+ESTUDIO Plan 2025
+UV=UNIDADES VALORATIVAS = ASIGNATURAS ENRIQUECIDAS CON CONTENIDO ASU
+ASIGNATURA UV REQUISITO
+I
+Habilidades Digitales
+Lógica Proposicional
+Matemática I
+Dibujo Técnico
+Química Técnica
+1
+2
+3
+4
+5
+4
+4
+4
+4
+5
+Bachiller
+Bachiller
+Bachiller
+Bachiller
+Bachiller
+II
+Introducción a la Física
+Matemática II
+Educación para la Ciudadanía
+Sistemas Operativos
+Hardware de Computadoras
+5
+4
+4
+4
+4
+Bachiller
+Matemática I
+Bachiller
+Bachiller
+Bachiller
+6
+7
+8
+9
+10
+III
+Física I
+Matemática III
+Pensamiento Crítico
+Programación I
+Dispositivos de Redes
+5
+4
+4
+4
+4
+Introducción a la Física
+Matemática II
+Bachiller
+Bachiller
+Bachiller
+11
+12
+13
+14
+15
+IV
+Física II
+Matemática IV
+Estadística I
+Programación II
+Estructura de Datos
+5
+4
+4
+4
+4
+Física I
+Matemática III
+Bachiller
+Programación I
+Programación I
+16
+17
+18
+19
+20
+V
+Física III
+Métodos y Técnicas
+de Investigación
+Programación para Hardware
+Programación III
+Diseño de Base de Datos
+21
+22
+23
+24
+25
+5
+4
+4
+4
+4
+Física II
+Bachiller
+Programación I
+Programación II
+Bachiller
+VI
+Habilidades Blandas
+Fundamentos de
+Inteligencia Artificial
+Seguridad Informática
+Programación IV
+Administración de Base de Datos
+26
+27
+28
+29
+30
+4
+4
+4
+4
+4
+Bachiller
+Bachiller
+Sistemas Operativos
+Programación III
+Diseño de Base de Datos
+VII
+Sistemas de Información Gerencial
+Ingeniería Económica
+Administración de Redes y
+Servidores Linux
+Análisis de Sistemas I
+Redes de Computadoras
+4
+4
+4
+4
+4
+Bachiller
+Bachiller
+Sistemas Operativos
+Programación IV
+Dispositivos de Redes
+31
+32
+33
+34
+35
+VIII
+Emprendimiento e Innovación
+Arquitectura de Sistemas
+Ciberseguridad I
+Análisis de Sistemas II
+Introducción a la Robótica
+4
+4
+4
+4
+4
+Bachiller
+Bachiller
+Administración de Redes y
+Servidores Linux
+Análisis de Sistemas I
+Bachiller
+36
+37
+38
+39
+40
+IX Ciberseguridad II
+Criptografía y Seguridad de Redes
+Asignatura Electiva I
+Asignatura Electiva II
+4
+4
+4
+4
+Ciberseguridad I
+Ciberseguridad I
+Ver Tabla de Asignaturas Electivas
+Ver Tabla de Asignaturas Electivas
+41
+42
+43
+44
+X Tendencias en Ciberseguridad
+Calidad de Software
+Asignatura Electiva III
+Asignatura Electiva IV
+45
+46
+47
+48
+4
+4
+4
+4
+Ciberseguridad II
+Análisis de Sistemas II
+Ver Tabla de Asignaturas Electivas
+Ver Tabla de Asignaturas Electivas

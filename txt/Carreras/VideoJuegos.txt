@@ -1,0 +1,155 @@
+---
+INGENIERÍA EN DISEÑO Y DESARROLLO DE VIDEOJUEGOS
+MODALIDAD PRESENCIAL
+UNIVERSIDAD FRANCISCO GAVIDIA
+
+---
+## PERFIL DEL PROFESIONAL
+
+### DESCRIPCIÓN
+La carrera está diseñada para formar profesionales con competencias en la producción de contenido y proyectos digitales de alta calidad. Promueve la creatividad para satisfacer las demandas nacionales e internacionales de la industria del entretenimiento. Se enfoca en el desarrollo de tecnología de entretenimiento (videojuegos y animaciones digitales) a través de un aprendizaje sistemático en lenguajes de programación, diseño gráfico, arquitectura y estructura de proyectos informáticos.
+
+### OBJETIVOS
+* Aplicar, con efectividad, lenguajes de programación, bases de datos, seguridad informática y gestión de servidores al desarrollo de animaciones y videojuegos.
+* Producir animaciones digitales para diferentes plataformas de hardware.
+
+---
+## PERFIL DE INGRESO
+
+### CONOCIMIENTOS
+* Matemáticas
+* Física
+* Química
+* Lógica
+* Computación
+
+### HABILIDADES
+* Pensamiento analítico y crítico.
+* Resolución de problemas matemáticos.
+* Manejo de ofimática.
+* Creatividad e innovación.
+
+### ACTITUDES
+* Preferencia por módulos de animación digital, diseño y desarrollo de videojuegos.
+* Propositivo en la solución de problemas concretos.
+* Tenaz.
+* Compromiso ético-social.
+* Dispuesto a aprender haciendo y reflexionando.
+* Positivo para aprender, experimentar y realizar innovaciones.
+* Interesado en la innovación y generación de propuestas.
+* Iniciativa, disposición, dedicación al estudio intensivo.
+
+---
+## PUESTOS A DESEMPEÑAR
+* **Industria de los videojuegos:** Diseño, Desarrollo, Arte, Producción, entre otros.
+* **Ámbito del Mercadeo y la Publicidad.**
+* **Industria de la Animación Digital.**
+* **Sector informático:** Desarrollo de Aplicaciones Móviles y Tecnologías de la Información.
+* **Simulación para el Sector Industrial, la Salud, la Educación, entre otros.**
+
+---
+## REQUISITOS DE EGRESO
+* CUM MÍNIMO DE 7.0
+* CUMPLIR SERVICIO SOCIAL
+* PRUEBA DE DOMINIO DE IDIOMA INGLÉS (en las carreras que aplique)
+
+---
+## PLAN DE ESTUDIO (Plan 2024)
+UV = UNIDADES VALORATIVAS
+ASIGNATURAS ENRIQUECIDAS CON CONTENIDO ASU
+
+---
+### I CICLO
+1. **Desarrollo del Pensamiento Numérico Algebraico** (4 UV) - Requisito: Bachiller
+2. **Elaboración de Narrativa Audiovisual** (4 UV) - Requisito: Bachiller
+3. **Aplicación de Tecnología Informática** (4 UV) - Requisito: Bachiller
+4. **Análisis e Interpretación de Datos** (4 UV) - Requisito: Bachiller
+5. **Aplicación de la Química en las Ciencias Computacionales** (5 UV) - Requisito: Bachiller
+
+---
+### II CICLO
+6. **Desarrollo del Pensamiento Matemático Básico** (4 UV) - Requisito: Desarrollo del Pensamiento Numérico Algebraico
+7. **Comunicación Oral y Escrita Básica en Inglés** (4 UV) - Requisito: Bachiller
+8. **Comunicación Oral y Escrita en Español** (4 UV) - Requisito: Bachiller
+9. **Aplicación del Arte Sonoro y Música por Computadora** (4 UV) - Requisito: Elaboración de Narrativa Audiovisual
+10. **Aplicación de la Física en Videojuegos** (5 UV) - Requisito: Bachiller
+
+---
+### III CICLO
+11. **Desarrollo del Pensamiento Matemático Avanzado** (4 UV) - Requisito: Desarrollo del Pensamiento Matemático Básico
+12. **Construcción de Frases en Inglés** (4 UV) - Requisito: Comunicación Oral y Escrita Básica en Inglés
+13. **Gestión de la Cultura y la Información** (4 UV) - Requisito: Bachiller
+14. **Desarrollo de la Lógica de Programación** (4 UV) - Requisito: Bachiller
+15. **Análisis de Fenómenos Electrostáticos y Electromagnéticos en Ambientes Tecnológicos** (4 UV) - Requisito: Aplicación de la Física en Videojuegos
+
+---
+### IV CICLO
+16. **Aplicación de Bases de Datos para Videojuegos** (4 UV) - Requisito: Desarrollo de la Lógica de Programación
+17. **Descripción de Situaciones Actuales en Inglés** (4 UV) - Requisito: Construcción de Frases en Inglés
+18. **Aplicación de Modelos de Programación y Estructura de Datos** (4 UV) - Requisito: Desarrollo de la Lógica de Programación
+19. **Producción de Video** (4 UV) - Requisito: Aplicación del Arte Sonoro y Música por Computadora
+20. **Aplicación de la Psicología a los Videojuegos** (4 UV) - Requisito: Bachiller
+
+---
+### V CICLO
+21. **Conversaciones a Nivel Intermedio en Inglés** (4 UV) - Requisito: Descripción de Situaciones Actuales en Inglés
+22. **Configuración de Redes de Datos y Seguridad Informática** (4 UV) - Requisito: Aplicación de Tecnología Informática
+23. **Creación de Ilustraciones Gráficas en 2D** (4 UV) - Requisito: Producción de Video
+24. **Manejo de Residuos de Aparatos Eléctricos y Electrónicos (RAEE)** (4 UV) - Requisito: Aplicación de la Química en las Ciencias Computacionales
+25. **Actuación Ética y Gestión de la Calidad** (4 UV) - Requisito: Bachiller
+
+---
+### VI CICLO
+26. **Modelamiento de Prototipos y Aplicación en Consolas de Videojuegos** (4 UV) - Requisito: Aplicación de Bases de Datos para Videojuegos
+27. **Creación de Modelos en 3D Básicos** (4 UV) - Requisito: Creación de Ilustraciones Gráficas en 2D
+28. **Creación de Ilustraciones Gráficas en 3D** (4 UV) - Requisito: Creación de Ilustraciones Gráficas en 2D
+29. **Diseño de Videojuegos en 2D** (4 UV) - Requisito: Creación de Ilustraciones Gráficas en 2D
+30. **Diseño y Desarrollo de Sitios Web** (4 UV) - Requisito: Desarrollo de la Lógica de Programación
+
+---
+### VII CICLO
+31. **Desarrollo de Videojuegos con Motores I** (4 UV) - Requisito: Aplicación de Modelos de Programación y Estructura de Datos
+32. **Creación de Modelos en 3D Complejos** (4 UV) - Requisito: Creación de Modelos en 3D Básicos
+33. **Producción de Animaciones en 2D** (4 UV) - Requisito: Producción de Video
+34. **Diseño de Videojuegos en 3D** (4 UV) - Requisito: Diseño de Videojuegos en 2D
+35. **Desarrollo de Liderazgo, Emprendimiento e Innovación** (4 UV) - Requisito: Bachiller
+
+---
+### VIII CICLO
+36. **Desarrollo de Videojuegos con Motores II** (4 UV) - Requisito: Desarrollo de Videojuegos con Motores I
+37. **Aplicación de Técnicas de Advergaming** (4 UV) - Requisito: Diseño de Videojuegos en 3D
+38. **Producción de Animaciones en 3D** (4 UV) - Requisito: Producción de Animaciones en 2D
+39. **Desarrollo de Videojuegos para Dispositivos Móviles** (4 UV) - Requisito: Diseño de Videojuegos en 3D
+40. **Desarrollo de Videojuegos para PC** (4 UV) - Requisito: Diseño de Videojuegos en 3D
+
+---
+### IX CICLO
+41. **Módulo Electivo I** (4 UV) - Requisito: Ver Tabla de Módulos Electivos
+42. **Módulo Electivo II** (4 UV) - Requisito: Ver Tabla de Módulos Electivos
+43. **Investigación de Mercados e Innovación Tecnológica** (4 UV) - Requisito: Desarrollo de Liderazgo, Emprendimiento e Innovación
+44. **Desarrollo de Videojuegos en Línea** (4 UV) - Requisito: Desarrollo de Videojuegos para Dispositivos Móviles
+45. **Desarrollo de Videojuegos para Consola** (4 UV) - Requisito: Desarrollo de Videojuegos para PC
+
+---
+### X CICLO
+45. **Módulo Electivo III** (4 UV) - Requisito: Ver Tabla de Módulos Electivos
+46. **Módulo Electivo IV** (4 UV) - Requisito: Ver Tabla de Módulos Electivos
+47. **Desarrollo de Videojuegos para Móviles Avanzado** (4 UV) - Requisito: Desarrollo de Videojuegos para Dispositivos Móviles
+48. **Aplicación de Técnicas para Pruebas de Videojuegos** (4 UV) - Requisito: Desarrollo de Videojuegos para Consola
+
+---
+## TABLA DE ASIGNATURAS ELECTIVAS (ASE)
+
+### IMPAR
+1. **Gestión de Proyectos Informáticos** (4 UV) - Requisito: Bachiller
+2. **Formulación y Evaluación de Proyectos** (4 UV) - Requisito: Bachiller
+3. **Comercialización de Nuevos Productos** (4 UV) - Requisito: Bachiller
+
+### PAR
+4. **Desarrollo de Backend y API** (4 UV) - Requisito: Desarrollo de Videojuegos con Motores II
+5. **Desarrollo de Aplicaciones con Realidad Virtual y Aumentada** (4 UV) - Requisito: Producción de Animaciones en 3D
+6. **Aplicación de Métodos de Gamificación** (4 UV) - Requisito: Producción de Animaciones en 3D
+
+---
+**TOTAL UNIDADES VALORATIVAS: 198**
+---
