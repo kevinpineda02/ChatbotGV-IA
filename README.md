@@ -39,8 +39,6 @@ Chat/
 │       ├── Instrucciones.txt
 │       ├── Carreras/           # Información de 38+ carreras
 │       └── Precios/            # Información de costos y aranceles
-├── script.js                   # Script adicional
-└── test-elevenlabs.html        # Archivo de prueba para integración de voz
 ```
 
 ## 🚀 Instalación y Configuración
@@ -161,17 +159,5 @@ El sistema incluye información completa sobre:
 - Optimización de rendimiento
 - Funcionalidades adicionales de voz
 
-## 🤝 Contribuciones
-
-Desarrollado por el equipo de la Universidad Francisco Gavidia para brindar mejor atención a estudiantes y público interesado.
-
-## 📞 Soporte
-
-Para consultas técnicas o mejoras al sistema:
-- Contacto UFG: **2209-2834**
-- Email: **contactcenter@ufg.edu.sv**
-- Web: **https://www.ufg.edu.sv/**
-
----
 
 *Última actualización: Septiembre 2025*
