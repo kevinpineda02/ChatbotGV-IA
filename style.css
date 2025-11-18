@@ -10,7 +10,7 @@
 body {
     width: 100vw;
     height: 100vh; /* Es importante que el body tenga una altura definida */
-    background-image: url("imagenes/Fondos/ufg-1.jpg");
+    background-image: url("Fondos/Contenedor-2.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -21,160 +21,9 @@ body {
     /* document.body.style.overflow = ''; */
 }
 
-/* Estilo para la Pantalla de Carga Global */
-#global-loader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: url("imagenes/ufgarquitectoures.jpg") no-repeat center center fixed;
-    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
-    z-index: 9999;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 1; /* Opacidad inicial del loader completo */
-    transition: opacity 0.8s ease-out; /* Transición suave al desaparecer */
-    
-    /* Capa de overlay semi-transparente sobre la imagen de fondo */
-    position: relative; /* Necesario para posicionar el pseudo-elemento ::before */
-    overflow: hidden; /* Asegura que el loader no tenga scroll interno */
-}
 
-/* Pseudo-elemento para la capa de opacidad sobre la imagen de fondo */
-#global-loader::before {
-    content: ""; /* Es necesario para que el pseudo-elemento exista */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Color negro semi-transparente (50% de opacidad) */
-    z-index: -1; /* Asegura que esté detrás del contenido del loader (texto, spinner) */
-}
 
-/* Clase para ocultar el loader con una transición */
-#global-loader.fade-out {
-    opacity: 0;
-    pointer-events: none; /* Deshabilita interacciones con el loader una vez oculto */
-}
 
-/* Contenedor del contenido dentro del loader */
-.loader-content {
-    text-align: center;
-    color: white;
-    animation: fadeInUp 1s ease-out; /* Animación de aparición */
-    max-height: 100%; /* Asegura que el contenido no exceda el alto del loader */
-    overflow: hidden; /* Evita scroll interno si el contenido es muy grande */
-}
-
-/* Contenedor del logo (si hay uno, aunque no se usa en la imagen proporcionada) */
-.logo-container {
-    margin-bottom: 5px; /* Margen inferior para separar del siguiente elemento */
-    animation: pulse 2s infinite; /* Animación de pulsación */
-}
-
-/* Estilo del logo (si se utiliza una imagen de logo) */
-.loader-logo {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
-    animation: logoFloat 3s ease-in-out infinite;
-}
-
-/* Texto UFG animado */
-.ufg-animado {
-    font-size: 90px;
-    font-weight: bold;
-    letter-spacing: 4px;
-    animation: ufgPulse 2s infinite, shimmer 3s ease-in-out infinite;
-    
-    /* Ajuste de margen inferior para acercar el spinner */
-    margin-bottom: 5px; 
-    
-    font-family: 'Montserrat', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-    /* BORDE DE LAS LETRAS CON TEXT-STROKE Y COLOR DE RELLENO - UNIFICADO */
-    -webkit-text-stroke-width: 4px; /* Grosor del borde para Webkit */
-    -webkit-text-stroke-color: #ffffff; /* Color del borde para Webkit (Blanco) */
-    -webkit-text-fill-color: #0f39c1; /* Color de relleno para Webkit (Azul oscuro) */
-
-    text-stroke-width: 4px; /* Grosor del borde (estándar) */
-    text-stroke-color: #ffffff; /* Color del borde (estándar - Blanco) */
-    text-fill-color: #0f39c1; /* Color de relleno (estándar - Azul oscuro) */
-
-    /* Sombra para efecto de relieve en el texto */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-}
-
-/* Spinner de carga */
-.loading-spinner {
-    width: 60px;
-    height: 60px;
-    border: 4px solid rgba(255, 255, 255, 0.1);
-    border-left: 4px solid #fff;
-    border-radius: 50%;
-    
-    /* Margen: 5px arriba (con UFG), auto horizontal, 20px abajo (con loader-text) */
-    margin: 5px auto 20px auto; 
-    
-    animation: spin 1s linear infinite; /* Animación de giro */
-}
-
-/* Subtema "Inicializando GV-IA" */
-.loader-text {
-    font-size: 24px;
-    font-weight: bold;
-    
-    /* Margen superior para separar del spinner, margen inferior estándar */
-    margin-top: 20px; 
-    margin-bottom: 10px;
-    
-    animation: textGlow 2s ease-in-out infinite alternate; /* Animación de brillo */
-    
-    /* Borde negro en las letras - UNIFICADO */
-    -webkit-text-stroke-width: 0.5px; /* Grosor del borde para Webkit */
-    -webkit-text-stroke-color: #000000; /* Color del borde para Webkit (Negro) */
-    -webkit-text-fill-color: #ffffff; /* Color de relleno para Webkit (Blanco) */
-
-    text-stroke-width: 0.5px; /* Grosor del borde (estándar) */
-    text-stroke-color: #000000; /* Color del borde (estándar - Negro) */
-    text-fill-color: #ffffff; /* Color de relleno (estándar - Blanco) */
-}
-
-/* --- Animaciones de la pantalla de carga --- */
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes pulse {
-    0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.05); }
-}
-
-@keyframes logoFloat {
-    0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-10px); }
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-
-@keyframes textGlow {
-    from { text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); }
-    to { text-shadow: 0 0 20px rgba(255, 255, 255, 0.8); }
-}
 
 @keyframes fadeScaleIn {
     0% {
@@ -199,14 +48,8 @@ body {
     100% { width: 100%; }
 }
 
-/* --- Animación de entrada para el contenido principal después de la carga --- */
+/* --- Contenido principal --- */
 .main-content {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: all 0.8s ease-out;
-}
-
-.main-content.loaded {
     opacity: 1;
     transform: translateY(0);
 }
@@ -244,32 +87,6 @@ body {
     overflow-y: auto; /* Permite scroll solo si el contenido excede la altura */
     position: relative; /* Necesario para posicionar el botón de info */
 }
-
-/* Estilos para el botón de información */
-.info-button {
-    position: fixed;
-    top: 15px;
-    right: 15px;
-    background: rgb(30, 29, 29) ; /* Fondo transparente para el botón */
-    border: 3px solid #ff6200; /* Borde negro para el botón */
-    border-radius: 50%;
-    width: 45px;
-    height: 45px;
-    cursor: pointer;
-    box-shadow: 0 2px 10px rgb(0, 0, 0);
-    transition: all 0.3s ease;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.info-button:hover {
-    background: rgb(248, 248, 248);
-    transform: scale(1.1);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-}
-
 
 
 /* Botón de cerrar chat */
@@ -365,7 +182,7 @@ body {
 
 /* Efecto arcoíris para el texto de bienvenida */
 .ai-chat-area .rainbow-text {
-    background: linear-gradient(270deg, #ff0000, #ff9900, #ffee00, #33ff00, #00ffee, #0066ff, #cc00ff, #ff0000);
+    background: #fff;
     background-size: 1600% 1600%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -686,10 +503,7 @@ body {
         /* top: 12px; */
     }
 
-    .main-content {
-        opacity: 1;
-        transform: translateY(0);
-    }
+
 
     .ai-chat-box{
         top: 0px;
@@ -727,129 +541,4 @@ body {
     }
 }
 
-/* --- Estilos del Modal de Información --- */
-.info-modal {
-    display: none;
-    position: fixed;
-    z-index: 2000;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    backdrop-filter: blur(5px);
-}
 
-.info-modal-content {
-    background-color: #1a1a1a;
-    margin: 5% auto;
-    padding: 0;
-    border: none;
-    border-radius: 15px;
-    width: 90%;
-    max-width: 600px;
-    max-height: 80vh;
-    overflow-y: auto;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-    animation: modalSlideIn 0.3s ease-out;
-}
-
-@keyframes modalSlideIn {
-    from {
-        opacity: 0;
-        transform: translateY(-50px) scale(0.95);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0) scale(1);
-    }
-}
-
-.info-modal-header {
-    background: #e46306;
-    color: white;
-    padding: 20px;
-    border-radius: 15px 15px 0 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.info-modal-header h3 {
-    margin: 0;
-    font-size: 24px;
-    font-weight: 600;
-}
-
-.close-modal {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 28px;
-    cursor: pointer;
-    padding: 0;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    transition: all 0.3s ease;
-}
-
-.close-modal:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    transform: scale(1.1);
-}
-
-.info-modal-body {
-    padding: 25px;
-    color: #e0e0e0;
-    line-height: 1.6;
-}
-
-.info-modal-body h4 {
-    color: #ffffff;
-    margin: 20px 0 10px 0;
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.info-modal-body h4:first-child {
-    margin-top: 0;
-}
-
-.info-modal-body p {
-    margin: 10px 0;
-    color: #b0b0b0;
-}
-
-.info-modal-body ul {
-    margin: 10px 0;
-    padding-left: 20px;
-}
-
-.info-modal-body li {
-    margin: 8px 0;
-    color: #c0c0c0;
-}
-
-/* Responsive para el modal */
-@media (max-width: 768px) {
-    .info-modal-content {
-        width: 95%;
-        margin: 10% auto;
-    }
-    
-    .info-modal-header {
-        padding: 15px;
-    }
-    
-    .info-modal-header h3 {
-        font-size: 20px;
-    }
-    
-    .info-modal-body {
-        padding: 20px;
-    }
-}

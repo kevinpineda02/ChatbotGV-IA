@@ -1,8 +1,8 @@
-// Referencia a elementos HTML
-const promptInput = document.querySelector("#prompt");
-const chatContainer = document.querySelector(".chat-container");
-const submitBtn = document.querySelector("#submit");
-const closeBtn = document.querySelector("#close-chat");
+// Referencias a elementos HTML (se inicializan en DOMContentLoaded)
+let promptInput;
+let chatContainer;
+let submitBtn;
+let closeBtn;
 
 // Pantalla de carga
 const globalLoader = document.getElementById('global-loader');
@@ -53,9 +53,13 @@ async function generateResponse(iaChatBox, userMessage) {
     const cursor = document.createElement("span");
     cursor.classList.add("typing-cursor");
 
-    shouldStopWriting = false; // Reinicia la bandera al empezar
+    shouldStopWriting = false;
 
     try {
+        console.log("🚀 Enviando solicitud al servidor...");
+        console.log("📍 URL:", "http://localhost:8001/api/mistral");
+        console.log("📝 Mensaje:", userMessage);
+
         const response = await fetch("http://localhost:8001/api/mistral", {
             method: "POST",
             headers: {
@@ -68,8 +72,14 @@ async function generateResponse(iaChatBox, userMessage) {
             signal
         });
 
-        if (!response.body || !response.ok) {
-            throw new Error(`Error en la respuesta del servidor: ${response.status} ${response.statusText}`);
+        console.log("📥 Respuesta recibida:", response.status, response.statusText);
+
+        if (!response.ok) {
+            throw new Error(`Error del servidor: ${response.status} ${response.statusText}`);
+        }
+
+        if (!response.body) {
+            throw new Error("No se recibió contenido del servidor");
         }
 
         const reader = response.body.getReader();
@@ -105,7 +115,7 @@ async function generateResponse(iaChatBox, userMessage) {
                     aiChatArea.appendChild(span);
                 }
                 chatContainer.scrollTop = chatContainer.scrollHeight;
-                await new Promise(resolve => setTimeout(resolve, 7));
+                await new Promise(resolve => setTimeout(resolve, 2)); // Reducido de 7ms a 2ms para mayor velocidad
             }
             aiChatArea.appendChild(cursor);
         }
@@ -198,7 +208,9 @@ function handleChatResponse(message) {
     
     // 4. Mostrar el mensaje del usuario
     const userHtml = `
-        <img src="imagenes/user.png" alt="Usuario" id="UserImagen" width="50">
+    <svg alt="Usuario" id="UserImagen" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" class="size-6" width="50">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+</svg>
         <div class="user-chat-area">${user.data}</div>`;
 
     promptInput.value = ""; // Limpia el input
@@ -210,7 +222,7 @@ function handleChatResponse(message) {
     // 5. Mostrar la caja de la IA con el GIF de carga
     setTimeout(() => { // Pequeño retardo para que el mensaje del usuario se asiente
         const aiHtml = `
-            <img src="imagenes/ia.png" alt="IA" id="AiImagen" width="50">
+            <img src="Logo/Logo.ico" alt="IA" id="AiImagen" width="50">
             <div class="ai-chat-area">
                 <img src="imagenes/load.gif" alt="Cargando" class="load" width="40">
             </div>`;
@@ -226,21 +238,20 @@ function handleChatResponse(message) {
 
 // Función para actualizar el estado visual del botón de enviar (Enviar/Parar)
 function updateSubmitButton(isGeneratingResponse) {
-    const img = submitBtn.querySelector("img");
+    if (!submitBtn || !promptInput) return;
+    
     promptInput.disabled = isGeneratingResponse;
     submitBtn.disabled = false;
 
     if (isGeneratingResponse) {
-        img.src = "imagenes/cancelar.png";
-        img.alt = "Parar";
+        submitBtn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" fill="none" width="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>';
         submitBtn.title = "Parar generación de respuesta";
         submitBtn.classList.add("stop-button");
     } else {
-        img.src = "imagenes/enviar(1).png"; // Cambia al icono correcto
-        img.alt = "Enviar";
+        submitBtn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" fill="none" width="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" /></svg>';
         submitBtn.title = "Enviar mensaje";
         submitBtn.classList.remove("stop-button");
-        promptInput.focus();
+        if (promptInput) promptInput.focus();
     }
 }
 
@@ -256,53 +267,66 @@ window.addEventListener('load', () => {
 
 // Cuando el DOM está completamente cargado, añadir listeners a los elementos
 document.addEventListener('DOMContentLoaded', () => {
+    // Inicializar referencias a elementos HTML
+    promptInput = document.querySelector("#prompt");
+    chatContainer = document.querySelector(".chat-container");
+    submitBtn = document.querySelector("#submit");
+    closeBtn = document.querySelector("#close-chat");
+    
     // Evento para el input de texto (tecla Enter)
-    promptInput.addEventListener("keydown", e => {
-        // Solo envía si la tecla es Enter, no se está generando, y el input no está vacío
-        if (e.key === "Enter" && !isGenerating && promptInput.value.trim()) {
-            handleChatResponse(promptInput.value.trim());
-        }
-    });
+    if (promptInput) {
+        promptInput.addEventListener("keydown", e => {
+            // Solo envía si la tecla es Enter, no se está generando, y el input no está vacío
+            if (e.key === "Enter" && !isGenerating && promptInput.value.trim()) {
+                handleChatResponse(promptInput.value.trim());
+            }
+        });
+    }
 
     // Evento para el botón de enviar/parar
-    submitBtn.addEventListener("click", () => {
+    if (submitBtn) {
+        submitBtn.addEventListener("click", () => {
         if (isGenerating) {
             // Detiene tanto la petición como la escritura
             abortController.abort();
             shouldStopWriting = true;
             updateSubmitButton(false); // <-- Añade esta línea para restaurar el icono de enviar
             console.log("Generación de mensaje detenida por el usuario vía botón.");
-        } else if (promptInput.value.trim()) {
+        } else if (promptInput && promptInput.value.trim()) {
             handleChatResponse(promptInput.value.trim());
         }
-    });
-
-    // Evento para el botón de cerrar chat (limpia cookie y redirige)
-    closeBtn.addEventListener("click", () => {
-        // Borrar la cookie JWT (si la usas para autenticación/sesión)
-        document.cookie = "jwt=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-        // Redirigir a la raíz del sitio
-        window.location.replace("/");
-    });
-
-    // Funcionalidad del botón 'Clear' (asumiendo que #clear es para detener la generación)
-    // Si tu botón 'Clear' es para limpiar el *chat* visualmente, necesitaría otra lógica.
-    const clearBtn = document.querySelector("#clear");
-    if (clearBtn) { // Asegúrate de que el botón #clear exista en tu HTML
-        clearBtn.addEventListener("click", async () => {
-            if (isGenerating) {
-                // Si hay una generación en curso, la detiene
-                abortController.abort();
-                console.log("Generación de mensaje detenida por el usuario desde el botón 'Clear'.");
-                // Pequeño retardo para que la cancelación se procese antes de cualquier otra acción
-                await new Promise(resolve => setTimeout(resolve, 100)); 
-            } else {
-                console.log("No hay generación activa para detener.");
-                // Si este botón es para LIMPIAR el chat, aquí iría la lógica para borrar mensajes del DOM
-                // Por ejemplo: chatContainer.innerHTML = '';
-            }
         });
     }
+
+    // Evento para el botón de cerrar chat (limpia cookie y redirige)
+    if (closeBtn) {
+        closeBtn.addEventListener("click", () => {
+            // Borrar la cookie JWT (si la usas para autenticación/sesión)
+            document.cookie = "jwt=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+            // Redirigir a la raíz del sitio
+            window.location.replace("/");
+        });
+    }
+
+    // Funcionalidad del botón 'Clear' (ya no existe, comentado)
+    // const clearBtn = document.querySelector("#clear");
+    // if (clearBtn) { // Asegúrate de que el botón #clear exista en tu HTML
+    //     clearBtn.addEventListener("click", async () => {
+    //         if (isGenerating) {
+    //             // Si hay una generación en curso, la detiene
+    //             abortController.abort();
+    //             console.log("Generación de mensaje detenida por el usuario desde el botón 'Clear'.");
+    //             // Pequeño retardo para que la cancelación se procese antes de cualquier otra acción
+    //             await new Promise(resolve => setTimeout(resolve, 100)); 
+    //         } else {
+    //             console.log("No hay generación activa para detener.");
+    //             // Si este botón es para LIMPIAR el chat, aquí iría la lógica para borrar mensajes del DOM
+    //             // Por ejemplo: chatContainer.innerHTML = '';
+    //         }
+    //     });
+    // }
+
+
 });
 
 // --- Funcionalidad del Modal de Información ---
@@ -345,3 +369,4 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
