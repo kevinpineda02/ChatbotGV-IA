@@ -56,11 +56,12 @@ async function generateResponse(iaChatBox, userMessage) {
     shouldStopWriting = false;
 
     try {
+        const apiUrl = `${window.API_CONFIG.API_BASE_URL}/mistral`;
         console.log("🚀 Enviando solicitud al servidor...");
-        console.log("📍 URL:", "http://localhost:8001/api/mistral");
+        console.log("📍 URL:", apiUrl);
         console.log("📝 Mensaje:", userMessage);
 
-        const response = await fetch("http://localhost:8001/api/mistral", {
+        const response = await fetch(apiUrl, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -150,7 +151,8 @@ async function generateResponse(iaChatBox, userMessage) {
 // Función para limpiar la memoria del servidor (mantener conversaciones separadas)
 async function clearServerMemory() {
     try {
-        const response = await fetch("http://localhost:8001/api/clear-memory", {
+        const apiUrl = `${window.API_CONFIG.API_BASE_URL}/clear-memory`;
+        const response = await fetch(apiUrl, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
