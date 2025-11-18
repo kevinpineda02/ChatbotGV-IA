@@ -531,29 +531,5 @@ body {
     }
 }
 
-@media (max-width: 480px) {
-    .user-chat-area,
-    .ai-chat-area {
-        font-size: 14px;
-        padding: 10px;
-    }
-
-    .prompt-area {
-        height: 70px; /* Más compacto en pantallas muy pequeñas */
-        padding: 10px;
-    }
-
-    .prompt-area input {
-        height: 45px;
-        font-size: 16px; /* Evita zoom en iOS */
-        width: calc(100% - 60px); /* Ajustar al botón */
-    }
-
-    .prompt-area button {
-        width: 45px;
-        height: 45px;
-        min-width: 45px;
-    }
-}
 
 
