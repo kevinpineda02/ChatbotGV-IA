@@ -493,7 +493,7 @@ body {
 
     .prompt-area {
         position: block; /* Mantener fijo en la parte inferior */
-        bottom: 30px;
+        bottom: 90px;
         left: 0;
         right: 0;
         width: 100%;
@@ -531,5 +531,29 @@ body {
     }
 }
 
+@media (max-width: 480px) {
+    .user-chat-area,
+    .ai-chat-area {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .prompt-area {
+        height: 70px; /* Más compacto en pantallas muy pequeñas */
+        padding: 10px;
+    }
+
+    .prompt-area input {
+        height: 45px;
+        font-size: 16px; /* Evita zoom en iOS */
+        width: calc(100% - 60px); /* Ajustar al botón */
+    }
+
+    .prompt-area button {
+        width: 45px;
+        height: 45px;
+        min-width: 45px;
+    }
+}
 
 
