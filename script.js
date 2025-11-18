@@ -46,6 +46,10 @@ let shouldStopWriting = false; // Nueva bandera global
 
 // Función para generar respuesta desde el backend con animaciones de escritura
 async function generateResponse(iaChatBox, userMessage) {
+    // Debug: Verificar configuración
+    console.log("🔧 Configuración API:", window.API_CONFIG);
+    console.log("🔧 Entorno actual:", window.CURRENT_ENV);
+    
     abortController = new AbortController();
     const signal = abortController.signal;
     const aiChatArea = iaChatBox.querySelector(".ai-chat-area");
@@ -137,7 +141,10 @@ async function generateResponse(iaChatBox, userMessage) {
             console.log("Solicitud cancelada por el usuario.");
             aiChatArea.innerHTML += "<p>Respuesta detenida por el usuario.</p>";
         } else {
-            console.error("Error en la respuesta de la IA:", error);
+            console.error("❌ Error completo:", error);
+            console.error("❌ Tipo de error:", error.name);
+            console.error("❌ Mensaje:", error.message);
+            console.error("❌ Stack:", error.stack);
             aiChatArea.innerHTML += "<p>Ocurrió un error al conectar con el servidor o al procesar la respuesta.</p>";
         }
         aiChatArea.classList.remove("typing");
