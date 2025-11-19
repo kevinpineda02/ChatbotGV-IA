@@ -414,7 +414,8 @@ body {
         width: auto;
         font-size: 12px;
         overflow-y: auto;
-        margin-bottom: 30px;
+        /* Evita que el contenido final quede oculto por el area de entrada en mobile */
+        padding-bottom: 160px;
     }
 
     .close-chat {
@@ -446,6 +447,12 @@ body {
         border-radius: 20px;
         box-shadow: 2px 2px 6px black;
         overflow-wrap: break-word; /* Asegura que el texto largo se ajuste */
+        /* Asegurar que el contenido largo no se recorte y que las lineas se ajusten correctamente */
+        white-space: normal;
+        word-break: break-word;
+        overflow: visible;
+        max-height: none;
+        display: block;
     }
 
     .user-chat-area {
@@ -454,7 +461,9 @@ body {
         box-shadow: 5px 5px 10px black;
         margin-right: 60px; /* Espacio para la imagen del usuario */
         left: 3.5vh; /* Reinicia el 'left' que podría interferir */
-        float: right; /* Flota a la derecha para un diseño de burbuja */
+        float: none; /* Evitar floats que generan solapamientos en pantallas pequeñas */
+        clear: both;
+        box-sizing: border-box;
         
     }
 
@@ -462,7 +471,9 @@ body {
         margin-left: 15px;
         border-radius: 0px 20px 20px 20px;
         left: 3.5vh; /* Reinicia el 'left' */
-        float: left; /* Flota a la izquierda */
+        float: none; /* Evitar floats en mobile */
+        clear: both;
+        box-sizing: border-box;
     }
 
     /* Para las imágenes de perfil en móvil */
