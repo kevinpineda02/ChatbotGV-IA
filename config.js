@@ -2,16 +2,16 @@
 // Cambia estas URLs según tu entorno de despliegue
 
 const CONFIG = {
-    // Para desarrollo local - usar server.py local
+    // Para desarrollo local - usar Render backend
     development: {
-        API_BASE_URL: "http://localhost:8001/api",
-        SOCKET_URL: "ws://localhost:8001"
+        API_BASE_URL: "https://backenchat-gap6.onrender.com/api",
+        SOCKET_URL: "wss://backenchat-gap6.onrender.com"
     },
     
-    // Para producción - usar server.py local
+    // Para producción - usar Render backend
     production: {
-        API_BASE_URL: "http://localhost:8001/api",
-        SOCKET_URL: "ws://localhost:8001"
+        API_BASE_URL: "https://backenchat-gap6.onrender.com/api",
+        SOCKET_URL: "wss://backenchat-gap6.onrender.com"
     }
 };
 
