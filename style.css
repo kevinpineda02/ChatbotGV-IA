@@ -414,6 +414,7 @@ body {
         width: auto;
         font-size: 12px;
         overflow-y: auto;
+        margin-bottom: 30px;
     }
 
     .close-chat {
