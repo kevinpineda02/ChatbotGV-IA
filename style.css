@@ -460,7 +460,7 @@ body {
         border-radius: 20px 0px 20px 20px;
         box-shadow: 5px 5px 10px black;
         margin-right: 60px; /* Espacio para la imagen del usuario */
-        left: 3.5vh; /* Reinicia el 'left' que podría interferir */
+        left: 12.5vh; /* Reinicia el 'left' que podría interferir */
         float: none; /* Evitar floats que generan solapamientos en pantallas pequeñas */
         clear: both;
         box-sizing: border-box;
