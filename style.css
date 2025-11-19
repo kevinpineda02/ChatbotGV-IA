@@ -493,7 +493,7 @@ body {
 
     .prompt-area {
         position: block; /* Mantener fijo en la parte inferior */
-        bottom: 75px;
+        bottom: 50px;
         left: 0;
         right: 0;
         width: 100%;
