@@ -415,7 +415,7 @@ body {
         font-size: 12px;
         overflow-y: auto;
         /* Evita que el contenido final quede oculto por el area de entrada en mobile */
-        padding-bottom: 160px;
+        padding-bottom: 60px;
     }
 
     .close-chat {
@@ -567,5 +567,6 @@ body {
         min-width: 45px;
     }
 }
+
 
 
